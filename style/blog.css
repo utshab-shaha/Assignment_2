@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif
+}
+ 
+/* styles */
+ 
+ 
+/* Nav bar */
+.mo {
+    display: none;
+  }
+ 
+a {
+    text-decoration: none;
+  }
+ 
+  li {
+    list-style: none;
+  }
+header,
+.curriculum,
+.story-container , .foot {
+  margin: 0px auto;
+  max-width: 1280px;
+}
+ 
+.desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+ 
+ 
+.desktop ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+ 
+  .desktop li{
+      font-size: 25px;
+      font-weight: 500px;
+  }
+ 
+  .btn1{
+    border-radius: 12px;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border: 2px solid rgb(254, 163, 1);
+  }
+ 
+  .navbar a{
+    transition: text-decoration 1s;
+  }
+ 
+ 
+  .h a {
+    color: rgb(254, 163, 1);
+    font-weight: 700;
+  }
+ 
+  .a a {
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+  .faci a {
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+  .ad a {
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+ 
+ 
+  /* hero? */
+ 
+  .hero-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+ 
+  .hero h2 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+ 
+ 
+ 
+  .y-span {
+    color: rgb(1, 172, 253);
+  }
+ 
+  .b-span {
+    color: rgb(254, 163, 1);
+  }
+ 
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+ 
+  .btn-enroll {
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+  }
+ 
+  .btn-enroll:hover {
+    background-color: white;
+    color: black;
+  }
+ 
+ 
+  /* standard curriculam */
+  .standard {
+    background: url("../assets/bg.png") no-repeat top left;
+ 
+    background-repeat: no-repeat;
+  }
+ 
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        180deg,
+        rgb(222, 245, 255),
+        rgba(255, 255, 255, 0) 40%
+      ),
+      rgb(255, 255, 255);
+    padding: 60px 30px;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: 0.94px solid rgb(222, 245, 255);
+  }
+ 
+  .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 80px auto;
+    align-items: center;
+ 
+  }
+ 
+  .readmore {
+    color: rgb(100, 200, 255);
+    font-weight: 700;
+  }
+ 
+  .text2 {
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+  }
+ 
+  .card2 {
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(
+        180deg,
+        rgb(255, 244, 220),
+        rgba(255, 255, 255, 0) 40%
+      ),
+      rgb(255, 255, 255);
+  }
+ 
+  .readmore2 {
+    color: rgb(240, 170, 0);
+  }
+ 
+  .card3 {
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(
+        180deg,
+        rgb(238, 225, 255),
+        rgba(255, 255, 255, 0) 40%
+      ),
+      rgb(255, 255, 255);
+  }
+ 
+  .readmore3 {
+    color: rgb(135, 0, 255);
+   
+  }
+ 
+ 
+  .curriculum h2 {
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+  }
+  .arrow-container {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .arrow-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 60px auto;
+  }
+ 
+  .arrow-container button {
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(254, 163, 1);
+  }
+ 
+  .fa-solid {
+    font-size: 24px;
+    color: white;
+  }
+ 
+ 
+ 
+ 
+  /* Our stories? */
+ 
+  .stories {
+    background: url("../assets/bg.png"),
+      linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  }
+ 
+  .story-container > h2 {
+    padding-top: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+  }
+ 
+  .all-story {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+  }
+ 
+  .story-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: white;
+  }
+ 
+  .story-details {
+    margin: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+  }
+ 
+  .text3 {
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+  }
+ 
+  .story-card > button {
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    margin-left: 34px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -150px;
+    color: white;
+  }
+ 
+  .date {
+    margin-left: 34px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    margin-top: -30px;
+    position: relative;
+    color: white;
+    z-index: 3;
+  }
+ 
+  .story-card > img {
+    position: relative;
+  }
+ 
+  .multi-story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+ 
+  .card22 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+ 
+  .card22 > img{
+      position: relative;
+  }
+ 
+  .text4{
+      margin: 34px;
+      font-size: 15px;
+  font-weight: 500;
+  }
+ 
+ 
+ 
+  .date2{
+      border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+      width: 200px;
+      padding: 15px;
+      color: white;
+      position: relative;
+      z-index: 4;
+      margin-left: 34px;
+      margin-top: -32px;
+  }
+ 
+  .date-blue{
+    background: rgb(93, 88, 240);
+  }
+ 
+  .btn-view-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+ 
+  .btn-view-container button{
+    border-radius: 12px;
+  background: rgb(17, 17, 17);
+    padding: 10px 30px;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+  font-weight: 700;
+  }
+ 
+ 
+ 
+  /* footer */
+ 
+ 
+  footer{
+    padding: 175px 0;
+    background: rgb(1, 172, 253);
+    color: white;
+  }
+ 
+  .kids-education > div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+ 
+  }
+ 
+  .foot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+ 
+  .kids-edu h2{
+    font-size: 42px;
+  }
+ 
+ 
+  .kids-edu p{
+    color: white;
+    margin-top: 20px;
+  }
+ 
+  .foot-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .foot-nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 12px;
+    font-size: 30px;
+  font-weight: 500;
+  }
+ 
+ 
+  .social img{
+    width: 40px;
+  }
+ 
+  .social > div{
+    margin-top: 24px;
+  }
