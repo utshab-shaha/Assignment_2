@@ -5,11 +5,6 @@
     box-sizing: border-box;
     font-family:serif
 }
- 
-/* styles */
- 
- 
-/* Nav bar */
 .mo {
     display: none;
   }
@@ -90,9 +85,6 @@ header,
     font-weight: 500;
   }
  
- 
-  /* hero? */
- 
   .hero-sec{
     display: flex;
     flex-direction: row;
@@ -105,9 +97,6 @@ header,
     font-size: 56px;
     font-weight: 700;
   }
- 
- 
- 
   .y-span {
     color: rgb(1, 172, 253);
   }
@@ -136,13 +125,14 @@ header,
     background-color: white;
     color: black;
   }
- 
+  .btn1:hover{
+    background-color: darkorange;
+    color: white;
+  }
  
   /* standard curriculam */
   .standard {
-    background: url("../assets/bg.png") no-repeat top left;
- 
-    background-repeat: no-repeat;
+    background-image : url("../assets/bg.png");
   }
  
   .card1 {
@@ -250,11 +240,6 @@ header,
     color: white;
   }
  
- 
- 
- 
-  /* Our stories? */
- 
   .stories {
     background: url("../assets/bg.png"),
       linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -347,8 +332,6 @@ header,
   font-weight: 500;
   }
  
- 
- 
   .date2{
       border-radius: 47.93px;
   background: rgb(149, 178, 38);
@@ -370,6 +353,9 @@ header,
     justify-content: center;
     padding-bottom: 60px;
   }
+  .btn-view-container :hover{
+    background-color: blue;
+  }
  
   .btn-view-container button{
     border-radius: 12px;
@@ -380,11 +366,6 @@ header,
     font-size: 20px;
   font-weight: 700;
   }
- 
- 
- 
-  /* footer */
- 
  
   footer{
     padding: 175px 0;
