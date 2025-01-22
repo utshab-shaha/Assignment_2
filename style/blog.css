@@ -129,8 +129,7 @@ header,
     background-color: darkorange;
     color: white;
   }
- 
-  /* standard curriculam */
+
   .standard {
     background-image : url("../assets/bg.png");
   }
